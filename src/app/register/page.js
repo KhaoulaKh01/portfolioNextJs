@@ -1,8 +1,9 @@
 //register/page.js
+"use client";
 import { useDispatch } from 'react-redux';
 import { register } from '../Slices/authSlice';
 import { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function Register() {
   const [email, setEmail] = useState('');
