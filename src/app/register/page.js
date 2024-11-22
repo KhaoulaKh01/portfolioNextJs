@@ -1,7 +1,7 @@
 //register/page.js
 "use client";
 import { useDispatch } from 'react-redux';
-import { register } from '../Slices/authSlice';
+import { register } from '../../Slices/authSlice';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
